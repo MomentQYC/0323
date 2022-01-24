@@ -239,7 +239,7 @@ const fps = 60;
         let images = {
             boom: path + 'boom.png',
             player: path + 'plane/player.png',
-            friend: path + 'plane/friend.png',
+            friend: path + 'plane/friend.gif',
             enemy: path + 'plane/enemy.png',
             playerBullet: path + 'playerBullet.png',
             enemyBullet: path + 'enemyBullet.png',
