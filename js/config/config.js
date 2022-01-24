@@ -25,14 +25,14 @@ const fps = 60;
         return o;
     }
 
-    /*const planeAnimation = ()=>{
+    const planeAnimation = ()=>{
         return {
-            //loop : true,
+            loop : true,
             //col : 1,
             //row : 4,
-            //cooldown : 0.1 * fps,
+            cooldown : 0.1 * fps,
         }
-    }*/
+    }
 
     const bullet = (() => {
         return {
@@ -108,7 +108,7 @@ const fps = 60;
             return {
                 y: h / 2 - o.h / 2,
                 bulletCooldown: 0.5 * fps,
-                //animation : planeAnimation(),
+                animation : planeAnimation(),
             }
         });
 
@@ -125,7 +125,7 @@ const fps = 60;
                 x: w + o.w,
                 speed: -3,
                 img : 'enemy',
-                //animation : planeAnimation(),
+                animation : planeAnimation(),
             }
         })
 
@@ -161,7 +161,7 @@ const fps = 60;
                 x: w + o.w,
                 speed: -3,
                 img : 'friend',
-                //animation : planeAnimation(),
+                animation : planeAnimation(),
             }
         })
 
