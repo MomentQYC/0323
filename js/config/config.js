@@ -28,8 +28,8 @@ const fps = 60;
     const planeAnimation = ()=>{
         return {
             loop : true,
-            //col : 1,
-            //row : 4,
+            col : 1,
+            row : 4,
             cooldown : 0.1 * fps,
         }
     }
@@ -239,7 +239,7 @@ const fps = 60;
         let images = {
             boom: path + 'boom.png',
             player: path + 'plane/player.png',
-            friend: path + 'plane/friend.gif',
+            friend: path + 'plane/friend.png',
             enemy: path + 'plane/enemy.png',
             playerBullet: path + 'playerBullet.png',
             enemyBullet: path + 'enemyBullet.png',
